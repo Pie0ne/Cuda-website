@@ -1,3 +1,418 @@
+body {
+  margin: 0 auto;
+  font-family: 'Titillium Web', sans-serif; }
 
+.section-header {
+  background-color: #87509c;
+  padding-bottom: 146px; }
+  .section-header .logo img {
+    padding-top: 57px; }
+  .section-header .menu ul {
+    padding-top: 70px; }
+    .section-header .menu ul li {
+      display: inline-block;
+      padding: 5px 20px; }
+      .section-header .menu ul li:hover {
+        background-color: #643a79;
+        cursor: pointer;
+        border-radius: 50%; }
+      .section-header .menu ul li a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-decoration: none; }
+  .section-header .main-title p {
+    padding-top: 144px;
+    color: #f7f3ea;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48.82px;
+    text-align: center; }
+  .section-header .main-button {
+    padding-top: 72px;
+    text-align: center; }
+    .section-header .main-button button {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 26.19px;
+      color: #fff;
+      letter-spacing: 0.27px;
+      background-color: #eb7d4b;
+      border: 1px solid #eb7d4b;
+      padding: 20px 80px; }
+      .section-header .main-button button:hover {
+        color: #eb7d4b;
+        background-color: #fff;
+        border: 1px solid #eb7d4b;
+        transition: 0.5s; }
+
+.section-services {
+  background-color: #17c2a4;
+  padding-bottom: 100px; }
+  .section-services .services-title {
+    text-align: center; }
+    .section-services .services-title h3 {
+      padding-top: 99px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 50px;
+      color: #fff;
+      letter-spacing: 4px; }
+    .section-services .services-title p {
+      padding-top: 38px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #fff;
+      letter-spacing: 0.36px; }
+  .section-services .services-icons {
+    padding-top: 73px;
+    text-align: center; }
+    .section-services .services-icons .pencil h4 {
+      padding-top: 46px; }
+    .section-services .services-icons .branding h4 {
+      padding-top: 55px; }
+    .section-services .services-icons h4 {
+      padding-top: 52px;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0.48px; }
+    .section-services .services-icons .rocket {
+      margin-top: -16px; }
+    .section-services .services-icons p {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.32px;
+      padding-top: 17px; }
+
+.section-team {
+  text-align: center;
+  background-color: #e7f1f8;
+  padding-bottom: 128px; }
+  .section-team .team-text {
+    padding-top: 99px; }
+    .section-team .team-text h3 {
+      color: #3c4761;
+      font-size: 41px;
+      font-weight: 700;
+      line-height: 45px;
+      letter-spacing: 4px; }
+    .section-team .team-text p {
+      padding-top: 14px;
+      color: #3c4761;
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 26.84px;
+      letter-spacing: 0.36px; }
+  .section-team .main-team {
+    padding-top: 68px; }
+    .section-team .main-team img:hover {
+      opacity: 0.7;
+      transition: 0.9s;
+      cursor: pointer; }
+    .section-team .main-team h4 {
+      color: #27283d;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0.48px;
+      padding-top: 31px; }
+    .section-team .main-team h5 {
+      padding-top: 5px;
+      color: #30bae7;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.32px; }
+    .section-team .main-team p {
+      padding-top: 16px;
+      color: #3c4761;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.32px; }
+    .section-team .main-team .team-icon {
+      padding-top: 31px;
+      padding-bottom: 30px; }
+      .section-team .main-team .team-icon i {
+        color: #fff;
+        background-color: #bdd1df;
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 18px;
+        margin-right: 10px; }
+        .section-team .main-team .team-icon i:hover {
+          color: #bdd1df;
+          background-color: #fff;
+          transition: 0.7s;
+          cursor: pointer; }
+
+.section-skills {
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 97px;
+  padding-bottom: 122px; }
+  .section-skills h3 {
+    color: #3c4761;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 4px; }
+  .section-skills p {
+    padding-top: 13px;
+    color: #3c4761;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.36px; }
+  .section-skills .skills-icon {
+    padding-top: 74px; }
+    .section-skills .skills-icon img {
+      margin-top: 40px; }
+
+.section-portfolio {
+  background-color: #ffdd99;
+  text-align: center;
+  padding-bottom: 80px; }
+  .section-portfolio .portfolio-text h3 {
+    padding-top: 100px;
+    color: #393939;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 4px; }
+  .section-portfolio .portfolio-text p {
+    padding-top: 13px;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.36px; }
+  .section-portfolio .portfolio-text ul {
+    padding-top: 44px; }
+    .section-portfolio .portfolio-text ul li {
+      display: inline-block;
+      color: #393939;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 19.5px;
+      letter-spacing: 0.36px;
+      padding: 10px 30px; }
+      .section-portfolio .portfolio-text ul li:hover {
+        background-color: #fff;
+        color: #393939;
+        cursor: pointer; }
+  .section-portfolio .portfolio-images img {
+    padding-top: 77px; }
+  .section-portfolio .portfolio-images p {
+    padding-top: 30px;
+    color: #393939;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px; }
+  .section-portfolio button {
+    margin-top: 80px;
+    color: #ffffff;
+    font-family: "Titillium Web - Semi Bold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.19px;
+    letter-spacing: 0.27px;
+    background-color: #17c2a4;
+    border: 1px solid #17c2a4;
+    padding: 20px 80px; }
+    .section-portfolio button:hover {
+      color: #17c2a4;
+      background-color: #fff;
+      transition: 0.7s; }
+
+.section-about {
+  background-color: #d74680;
+  text-align: center;
+  padding-bottom: 129px; }
+  .section-about h3 {
+    padding-top: 99px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 4px; }
+  .section-about p {
+    padding-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px; }
+  .section-about .main-about h4 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    padding-top: 20px; }
+  .section-about .main-about h5 {
+    color: #ffdd99;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px; }
+  .section-about .main-about .image img {
+    margin-top: 60px; }
+    .section-about .main-about .image img:hover {
+      cursor: pointer;
+      opacity: 0.7;
+      transition: 0.9s; }
+
+.section-intouch {
+  text-align: center;
+  background-color: #3c5499;
+  padding-bottom: 85px; }
+  .section-intouch h3 {
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 4px; }
+  .section-intouch p {
+    padding-top: 16px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px; }
+  .section-intouch .form-touch {
+    padding-top: 88px; }
+    .section-intouch .form-touch input {
+      background-color: #273a71;
+      border: 1px solid #273a71;
+      padding: 20px;
+      padding-right: 280px; }
+    .section-intouch .form-touch input::placeholder {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 18px; }
+    .section-intouch .form-touch .name input {
+      margin-left: 83px; }
+    .section-intouch .form-touch .email input {
+      margin-right: 83px; }
+  .section-intouch .placeholder-touch {
+    padding-top: 27px; }
+    .section-intouch .placeholder-touch textarea {
+      padding-right: 800px;
+      background-color: #273a71;
+      border: 1px solid #273a71;
+      padding: 20px; }
+    .section-intouch .placeholder-touch textarea::placeholder {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 18px; }
+  .section-intouch button {
+    margin-top: 77px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.19px;
+    letter-spacing: 0.27px;
+    background-color: #30bae7;
+    padding: 20px 80px;
+    border: 1px solid #30bae7; }
+    .section-intouch button:hover {
+      color: #30bae7;
+      background-color: #fff;
+      transition: 0.7s;
+      cursor: pointer; }
+
+.section-footer {
+  background-color: #344b8e;
+  text-align: center;
+  padding-bottom: 40px; }
+  .section-footer ul li {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.91px;
+    letter-spacing: 0.48px;
+    padding-top: 45px;
+    padding-right: 30px; }
+    .section-footer ul li:hover {
+      color: #30bae7;
+      cursor: pointer; }
+
+/*media*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-intouch .form-touch .email input {
+    margin-right: 0;
+    margin-left: 20px; }
+  .section-intouch .form-touch .name input {
+    margin-left: 0;
+    margin-right: 20px; } }
+@media (min-width: 769px) and (max-width: 991px) {
+  .section-header .header-menu {
+    text-align: center; }
+
+  .section-services .services-icons p {
+    margin-bottom: 50px; }
+
+  .section-intouch .placeholder-touch textarea {
+    width: 80%; }
+  .section-intouch .form-touch input {
+    padding-right: 420px; }
+  .section-intouch .form-touch .email input {
+    margin: 30px 0 0; }
+  .section-intouch .form-touch .name input {
+    margin: 0; } }
+@media (max-width: 768px) {
+  .section-header .main-button button {
+    padding: 20px 30px; }
+  .section-header .logo {
+    text-align: center; }
+  .section-header .menu ul {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 60px; }
+    .section-header .menu ul li {
+      display: block;
+      padding: 15px; }
+      .section-header .menu ul li a {
+        font-size: 20px; }
+  .section-header .main-title p {
+    padding-top: 50px; }
+
+  .section-services .services-icons p {
+    margin-bottom: 50px; }
+
+  .section-portfolio .portfolio-images img {
+    width: 80%; }
+  .section-portfolio .portfolio-text ul {
+    padding-left: 0; }
+    .section-portfolio .portfolio-text ul li {
+      padding: 10px 10px; }
+  .section-portfolio button {
+    padding: 20px 20px; }
+
+  .section-intouch button {
+    padding: 20px 45px; }
+  .section-intouch .placeholder-touch textarea {
+    width: 80%; }
+  .section-intouch .form-touch input {
+    padding-right: 0;
+    width: 80%; }
+  .section-intouch .form-touch .email input {
+    margin: 30px 0 0; }
+  .section-intouch .form-touch .name input {
+    margin: 0; } }
 
 /*# sourceMappingURL=style.css.map */
