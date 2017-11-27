@@ -39,12 +39,16 @@ body {
 			font-size: 42px;
 			font-weight: 700;
 			line-height: 48.82px;
-			text-align: center;
+			text-align: center;	
+			&:hover {
+				cursor: pointer;
+			}
 		}
 	}
 	.main-button {
 		padding-top: 72px;
 		text-align: center;
+		color: #eb7d4b;
 		button {
 			font-size: 20px;
 			font-weight: 600;
@@ -61,6 +65,7 @@ body {
 				transition: 0.5s;
 			}
 		}
+		
 	}
 }
 
@@ -89,26 +94,9 @@ body {
 	.services-icons {
 		padding-top: 73px;
 		text-align: center;
-		.pencil {
-			h4 {
-				padding-top: 46px;
-			}
-		}
-		.branding {
-			h4 {
-				padding-top: 55px;
-			}
-		}
-		h4 {
-			padding-top: 52px;
-			color: #ffffff;
-			font-size: 24px;
-			font-weight: 700;
-			line-height: 18px;
-			letter-spacing: 0.48px;
-		}
-		.rocket {
-			margin-top: -16px;
+		img {
+			cursor: pointer;
+			height: 50%;
 		}
 		p {
 			color: #ffffff;
@@ -117,6 +105,28 @@ body {
 			line-height: 24px;
 			letter-spacing: 0.32px;
 			padding-top: 17px;
+		}
+		.rocket {
+			margin-top: -15px;
+		}
+		h4 {
+			font-family: "Titillium Web";
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 18px;
+			letter-spacing: 0.48px;
+			color: #fff;
+			padding-top: 30px;
+		}
+		.design {
+			h4 {
+				padding-top: 25px;
+			}
+		}
+		.branding {
+			h4 {
+				padding-top: 35px;
+			}
 		}
 	}
 }
@@ -182,10 +192,12 @@ body {
 			i {
 				color: #fff;
 				background-color: #bdd1df;
-				padding: 15px;
 				border-radius: 50%;
-				font-size: 18px;
+				font-size: 22px;
 				margin-right: 10px;
+				width: 60px;
+				height: 60px;
+				line-height: 60px;
 				&:hover {
 					color: #bdd1df;
 					background-color: #fff;
@@ -258,16 +270,16 @@ body {
 				letter-spacing: 0.36px;
 				padding: 10px 30px;
 				&:hover {
-					background-color: #fff;
 					color: #393939;
 					cursor: pointer;
-				}
+				}	
 			}
 		}
 	}
 	.portfolio-images {
 		img {
 			padding-top: 77px;
+			cursor: pointer;
 		}
 		p {
 			padding-top: 30px;
@@ -295,6 +307,14 @@ body {
 			background-color: #fff;
 			transition: 0.7s;
 		}
+	}
+	.hvr-sweep-to-bottom:before {
+		background-color: #fff;
+		transition: .5s;
+	}
+	.hvr-sweep-to-top:before {
+		background-color: #fff;
+		transition: .5s;
 	}
 }
 .section-about {
@@ -336,6 +356,7 @@ body {
 		.image {
 			img {
 				margin-top: 60px;
+				width: 25%;
 				&:hover {
 					cursor: pointer;
 					opacity: 0.7;
@@ -367,12 +388,13 @@ body {
 		letter-spacing: 0.36px;
 	}
 	.form-touch {
+		text-align: center;
 		padding-top: 88px;
 		input {
 			background-color: #273a71;
 			border: 1px solid #273a71;
 			padding: 20px;
-			padding-right: 280px;
+			color:fff;
 		}
 		input::placeholder {
 			color: #ffffff;
@@ -380,21 +402,32 @@ body {
 			font-weight: 400;
 			line-height: 18px;
 		}
+		input::-moz-placeholder {
+			  color: #fff;
+			}
 		.name {
 			input {
-				margin-left: 83px;
+				color: #fff;
+				width: 100%;
+				max-width: 800px;
+				margin-bottom: 30px;
 			}
 		}
 		.email {
+		
 			input {
-				margin-right: 83px;
+				color: #fff;
+				width: 100%;
+				max-width: 800px;
 			}
 		}	
 	}
 	.placeholder-touch {
 		padding-top: 27px;
+		color: #fff;
 		textarea {
-			padding-right: 800px;
+			width: 100%;
+    		max-width: 800px;
 			background-color: #273a71;
 			border: 1px solid #273a71;
 			padding: 20px;
@@ -449,25 +482,6 @@ body {
 
 /*media*/ 
 
-@media (min-width: 992px) and (max-width: 1199px) {
-	.section-intouch {
-		 .form-touch {
-		  	.email {
-		  		input {
-		  			margin-right: 0;
-		  			margin-left: 20px;
-		  		}
-		  	}
-		  	.name {
-		  		input {
-		  			margin-left: 0;
-		  			margin-right: 20px;
-		  		}
-		  	}
-		}
-	}
-}
-
 @media (min-width: 769px) and (max-width: 991px) {
 	.section-header {
 		.header-menu {
@@ -488,17 +502,18 @@ body {
 			}
 		}
 		.form-touch {
+			text-align: center;
 			input {
-				padding-right: 420px;
+				
 			}
 			.email {
 		  		input {
-		  			margin: 30px 0 0;
+		  		width: 80%;	
 		  		}
 		  	}
 		  	.name {
 		  		input {
-		  			margin: 0;
+		  			width: 80%;
 		  		}
 		  	}
 		}
@@ -577,11 +592,13 @@ body {
 			.email {
 		  		input {
 		  			margin: 30px 0 0;
+		  			width: 80%;
 		  		}
 		  	}
 		  	.name {
 		  		input {
 		  			margin: 0;
+		  			width: 80%;
 		  		}
 		  	}  	
 		}

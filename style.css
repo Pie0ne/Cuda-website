@@ -29,9 +29,12 @@ body {
     font-weight: 700;
     line-height: 48.82px;
     text-align: center; }
+    .section-header .main-title p:hover {
+      cursor: pointer; }
   .section-header .main-button {
     padding-top: 72px;
-    text-align: center; }
+    text-align: center;
+    color: #eb7d4b; }
     .section-header .main-button button {
       font-size: 20px;
       font-weight: 600;
@@ -69,19 +72,9 @@ body {
   .section-services .services-icons {
     padding-top: 73px;
     text-align: center; }
-    .section-services .services-icons .pencil h4 {
-      padding-top: 46px; }
-    .section-services .services-icons .branding h4 {
-      padding-top: 55px; }
-    .section-services .services-icons h4 {
-      padding-top: 52px;
-      color: #ffffff;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 18px;
-      letter-spacing: 0.48px; }
-    .section-services .services-icons .rocket {
-      margin-top: -16px; }
+    .section-services .services-icons img {
+      cursor: pointer;
+      height: 50%; }
     .section-services .services-icons p {
       color: #ffffff;
       font-size: 16px;
@@ -89,6 +82,20 @@ body {
       line-height: 24px;
       letter-spacing: 0.32px;
       padding-top: 17px; }
+    .section-services .services-icons .rocket {
+      margin-top: -15px; }
+    .section-services .services-icons h4 {
+      font-family: "Titillium Web";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0.48px;
+      color: #fff;
+      padding-top: 30px; }
+    .section-services .services-icons .design h4 {
+      padding-top: 25px; }
+    .section-services .services-icons .branding h4 {
+      padding-top: 35px; }
 
 .section-team {
   text-align: center;
@@ -142,10 +149,12 @@ body {
       .section-team .main-team .team-icon i {
         color: #fff;
         background-color: #bdd1df;
-        padding: 15px;
         border-radius: 50%;
-        font-size: 18px;
-        margin-right: 10px; }
+        font-size: 22px;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px; }
         .section-team .main-team .team-icon i:hover {
           color: #bdd1df;
           background-color: #fff;
@@ -205,11 +214,11 @@ body {
       letter-spacing: 0.36px;
       padding: 10px 30px; }
       .section-portfolio .portfolio-text ul li:hover {
-        background-color: #fff;
         color: #393939;
         cursor: pointer; }
   .section-portfolio .portfolio-images img {
-    padding-top: 77px; }
+    padding-top: 77px;
+    cursor: pointer; }
   .section-portfolio .portfolio-images p {
     padding-top: 30px;
     color: #393939;
@@ -233,6 +242,12 @@ body {
       color: #17c2a4;
       background-color: #fff;
       transition: 0.7s; }
+  .section-portfolio .hvr-sweep-to-bottom:before {
+    background-color: #fff;
+    transition: .5s; }
+  .section-portfolio .hvr-sweep-to-top:before {
+    background-color: #fff;
+    transition: .5s; }
 
 .section-about {
   background-color: #d74680;
@@ -266,7 +281,8 @@ body {
     line-height: 26px;
     letter-spacing: 0.36px; }
   .section-about .main-about .image img {
-    margin-top: 60px; }
+    margin-top: 60px;
+    width: 25%; }
     .section-about .main-about .image img:hover {
       cursor: pointer;
       opacity: 0.7;
@@ -291,25 +307,35 @@ body {
     line-height: 26px;
     letter-spacing: 0.36px; }
   .section-intouch .form-touch {
+    text-align: center;
     padding-top: 88px; }
     .section-intouch .form-touch input {
       background-color: #273a71;
       border: 1px solid #273a71;
       padding: 20px;
-      padding-right: 280px; }
+      color: fff; }
     .section-intouch .form-touch input::placeholder {
       color: #ffffff;
       font-size: 18px;
       font-weight: 400;
       line-height: 18px; }
+    .section-intouch .form-touch input::-moz-placeholder {
+      color: #fff; }
     .section-intouch .form-touch .name input {
-      margin-left: 83px; }
+      color: #fff;
+      width: 100%;
+      max-width: 800px;
+      margin-bottom: 30px; }
     .section-intouch .form-touch .email input {
-      margin-right: 83px; }
+      color: #fff;
+      width: 100%;
+      max-width: 800px; }
   .section-intouch .placeholder-touch {
-    padding-top: 27px; }
+    padding-top: 27px;
+    color: #fff; }
     .section-intouch .placeholder-touch textarea {
-      padding-right: 800px;
+      width: 100%;
+      max-width: 800px;
       background-color: #273a71;
       border: 1px solid #273a71;
       padding: 20px; }
@@ -352,13 +378,6 @@ body {
       cursor: pointer; }
 
 /*media*/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .section-intouch .form-touch .email input {
-    margin-right: 0;
-    margin-left: 20px; }
-  .section-intouch .form-touch .name input {
-    margin-left: 0;
-    margin-right: 20px; } }
 @media (min-width: 769px) and (max-width: 991px) {
   .section-header .header-menu {
     text-align: center; }
@@ -368,12 +387,12 @@ body {
 
   .section-intouch .placeholder-touch textarea {
     width: 80%; }
-  .section-intouch .form-touch input {
-    padding-right: 420px; }
-  .section-intouch .form-touch .email input {
-    margin: 30px 0 0; }
-  .section-intouch .form-touch .name input {
-    margin: 0; } }
+  .section-intouch .form-touch {
+    text-align: center; }
+    .section-intouch .form-touch .email input {
+      width: 80%; }
+    .section-intouch .form-touch .name input {
+      width: 80%; } }
 @media (max-width: 768px) {
   .section-header .main-button button {
     padding: 20px 30px; }
@@ -411,8 +430,10 @@ body {
     padding-right: 0;
     width: 80%; }
   .section-intouch .form-touch .email input {
-    margin: 30px 0 0; }
+    margin: 30px 0 0;
+    width: 80%; }
   .section-intouch .form-touch .name input {
-    margin: 0; } }
+    margin: 0;
+    width: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
