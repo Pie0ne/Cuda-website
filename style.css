@@ -204,6 +204,9 @@ body {
     padding-top: 74px; }
     .section-skills .skills-icon img {
       margin-top: 40px; }
+      .section-skills .circles h4 {
+        padding-bottom: 50px;
+      }
 
 .section-portfolio {
   background-color: #ffdd99;
@@ -504,9 +507,9 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  float: left;
   margin: 0 0.1em 0.1em 0;
   background-color: #cccccc;
+  margin: 0 auto;
 }
 .c100 *, .c100 *:before, .c100 *:after {
   -webkit-box-sizing: content-box;
